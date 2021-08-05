@@ -1,6 +1,17 @@
 .footer {
+  text-align: center;
+
   background-color: $color-1;
   width: 450px;
   border: 2px solid black;
   border-radius: 3px;
+}
+
+.footer__contacts {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__list {
+  list-style-type: none;
 }

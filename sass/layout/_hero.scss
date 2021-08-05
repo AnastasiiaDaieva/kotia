@@ -1,5 +1,4 @@
 .hero__container {
-  height: 300px;
   padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
@@ -8,6 +7,12 @@
 }
 
 .hero__nav {
+  list-style-type: none;
+}
+
+.hero__item {
+  margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 .hero__heading {

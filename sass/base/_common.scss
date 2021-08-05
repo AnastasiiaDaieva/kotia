@@ -15,7 +15,7 @@ body {
   color: $main-text-cl;
   font-weight: 400;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -34,6 +34,17 @@ img {
   display: block;
   height: auto;
   max-width: 100%;
+}
+
+button {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
 }
 
 .list {
@@ -55,4 +66,11 @@ img {
 
 textarea {
   resize: none;
+}
+
+.link {
+  text-decoration: none;
+  line-height: 1.29;
+  letter-spacing: 0;
+  font-weight: bold;
 }

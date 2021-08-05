@@ -15,7 +15,7 @@ body {
   color: #060846;
   font-weight: 400;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
@@ -34,6 +34,18 @@ img {
   display: block;
   height: auto;
   max-width: 100%;
+}
+
+button {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }
 
 .list {
@@ -57,6 +69,13 @@ textarea {
   resize: none;
 }
 
+.link {
+  text-decoration: none;
+  line-height: 1.29;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
 .container {
   width: 100%;
   padding-left: 20px;
@@ -78,12 +97,20 @@ textarea {
 }
 
 .hero__container {
-  height: 300px;
   padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
   background-color: #fdfeec;
   display: flex;
+}
+
+.hero__nav {
+  list-style-type: none;
+}
+
+.hero__item {
+  margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 .hero__heading {
@@ -112,6 +139,34 @@ textarea {
   cursor: pointer;
 }
 
+.stayaway {
+  background-color: #e6511c;
+}
+
+.cage {
+  background-color: #fbfeda;
+}
+
+.nutrition {
+  background-color: #f6fca2;
+}
+
+.nutrition_donts {
+  background-color: #e6511c;
+}
+
+.communication {
+  background-color: #fdfeec;
+}
+
+.care {
+  background-color: #f9fdc7;
+}
+
+.healthbehavior {
+  background-color: #fdfeec;
+}
+
 .healthbehavior__terms {
   margin-bottom: 15px;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -125,9 +180,19 @@ textarea {
 }
 
 .footer {
+  text-align: center;
   background-color: #f0fb6a;
   width: 450px;
   border: 2px solid black;
   border-radius: 3px;
+}
+
+.footer__contacts {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__list {
+  list-style-type: none;
 }
 /*# sourceMappingURL=main.css.map */
