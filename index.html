@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kotia Wikipedia</title>
+    <title>Kotiapedia</title>
 
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,12 +26,37 @@
         <div class="hero__container">
           <div class="hero__flex">
             <div>
-              <h1 class="hero__heading">Википедия о Коте Лимончике</h1>
+              <h1 class="hero__heading">Котяпедия о Коте Лимончике</h1>
             </div>
             <div>
               <button type="button" class="hero__button">
                 По какому вопросу пришли?
               </button>
+              <ul class="hero__nav">
+                <li class="hero__item">
+                  <a
+                    href="#stayaway" class="link">От чего держать его подальше</a
+                  >
+                </li>
+                <li class="hero__item">
+                  <a href="#cage" class="link">Клетка</a>
+                </li>
+                <li class="hero__item">
+                  <a href="#nutrition" class="link">Кушенькать</a>
+                </li>
+                <li class="hero__item">
+                  <a href="#communication" class="link">Коммуникация</a>
+                </li>
+                <li class="hero__item">
+                  <a href="#care" class="link">Уход</a> </li>
+
+                  <li class="hero__item">
+                  <a href="#healthbehavior" class="link">Здоров'ячко и Поведеньичко</li>
+
+                  <li class="hero__item">
+                  <a href="#contacts" class="link">Контакты и Соцсети</a></li>
+                </li>
+              </ul>
             </div>
           </div>
           <div>
@@ -44,7 +69,7 @@
           </div>
         </div>
       </section>
-      <section class="stayaway">
+      <section class="stayaway" id="stayway">
         <div class="container">
           <h2>От чего держать его подальше</h2>
           <ul>
@@ -58,7 +83,7 @@
         </div>
       </section>
 
-      <section class="cage">
+      <section class="cage" id="cage">
         <div class="container">
           <h2>Клетка</h2>
           <ul>
@@ -88,7 +113,7 @@
           </ul>
         </div>
       </section>
-      <section class="nutrition">
+      <section class="nutrition" id="nutrition">
         <div class="container">
           <h2>Кушенькать</h2>
           <p>
@@ -162,7 +187,7 @@
         </div>
       </section>
 
-      <section class="communication">
+      <section class="communication" id="communication">
         <div class="container">
           <h2>Коммуникация</h2>
           <section>
@@ -203,7 +228,7 @@
           </section>
         </div>
       </section>
-      <section class="care">
+      <section class="care" id="care">
         <div class="container">
           <h2>Уход</h2>
           <h3>Спать</h3>
@@ -241,7 +266,7 @@
         </div>
       </section>
 
-      <section class="healthbehavior">
+      <section class="healthbehavior" id="healthbehavior">
         <div class="container">
           <h2>Здоров'ячко и Поведеньичко</h2>
           <section>
@@ -402,13 +427,27 @@
     </main>
     <footer>
       <div class="footer">
-        <p>Контакты:</p>
+        <p id="contacts">Контакты:</p>
         <ul>
           <li>Настя: 050 950 8982</li>
-          <li>Ветклиника Exovet http://exovet.com.ua/ Людмила Харченко</li>
+          <li>
+            <a
+              href="http://exovet.com.ua/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Ветклиника Exovet
+            </a>
+            Людмила Харченко
+          </li>
           <li>
             Дополнительная информация:
-            https://www.mybirds.ru/forums/forum/94-kormlenie-popugaev/
+            <a
+              href="https://www.mybirds.ru/forums/forum/94-kormlenie-popugaev/"
+              target="_blank"
+              rel="noreferrer noopener"
+              >Форум MyBirds</a
+            >
           </li>
         </ul>
         <p>Соцсети:</p>
