@@ -123,4 +123,10 @@ textarea {
   font-size: 18px;
   font-weight: 800;
 }
+
+.footer {
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
 /*# sourceMappingURL=main.css.map */
