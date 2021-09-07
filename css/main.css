@@ -106,7 +106,7 @@ a {
 }
 
 .hero {
-  background-image: url(../../images/the-great.JPG);
+  background-image: url(../images/the-great.JPG);
   background-color: #fdfeec;
   background-repeat: no-repeat;
   background-size: cover;
