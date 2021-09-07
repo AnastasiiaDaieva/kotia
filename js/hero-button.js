@@ -12,7 +12,7 @@ function hideList() {
 }
 
 function navDelay() {
-  setTimeout(hideList, 100);
+  setTimeout(hideList, 200);
 }
 
 heroButton.addEventListener('click', showList);
