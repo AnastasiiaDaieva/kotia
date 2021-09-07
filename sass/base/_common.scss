@@ -68,9 +68,19 @@ textarea {
   resize: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .link {
   text-decoration: none;
+  color: $main-text-cl;
+
   line-height: 1.29;
   letter-spacing: 0;
   font-weight: bold;
+}
+
+.section {
+  background-image: linear-gradient(to bottom, $color-8 60%, $color-6);
 }

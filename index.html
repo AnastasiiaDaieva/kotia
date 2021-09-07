@@ -22,7 +22,7 @@
   </head>
   <body>
     <main>
-      <section class="hero">
+      <section class="section hero">
         <div class="hero__container">
           <div class="hero__flex">
             <div>
@@ -32,7 +32,7 @@
               <button type="button" class="hero__button">
                 По какому вопросу пришли?
               </button>
-              <ul class="hero__nav">
+             <div class="hero__nav"> <ul class="hero__items">
                 <li class="hero__item">
                   <a
                     href="#stayaway" class="link">От чего держать его подальше</a
@@ -56,20 +56,20 @@
                   <li class="hero__item">
                   <a href="#contacts" class="link">Контакты и Соцсети</a></li>
                 </li>
-              </ul>
+              </ul></div>
             </div>
           </div>
-          <div>
+          <!-- <div>
             <img
               src="./images/the-great.JPG"
               alt=""
               class="hero__photo"
               width="200"
             />
-          </div>
+          </div> -->
         </div>
       </section>
-      <section class="stayaway" id="stayway">
+      <section class="section stayaway" id="stayway">
         <div class="container">
           <h2>От чего держать его подальше</h2>
           <ul>
@@ -83,7 +83,7 @@
         </div>
       </section>
 
-      <section class="cage" id="cage">
+      <section class="section cage" id="cage">
         <div class="container">
           <h2>Клетка</h2>
           <ul>
@@ -113,7 +113,7 @@
           </ul>
         </div>
       </section>
-      <section class="nutrition" id="nutrition">
+      <section class="section nutrition" id="nutrition">
         <div class="container">
           <h2>Кушенькать</h2>
           <p>
@@ -187,7 +187,7 @@
         </div>
       </section>
 
-      <section class="communication" id="communication">
+      <section class="section communication" id="communication">
         <div class="container">
           <h2>Коммуникация</h2>
           <section>
@@ -228,7 +228,7 @@
           </section>
         </div>
       </section>
-      <section class="care" id="care">
+      <section class="section care" id="care">
         <div class="container">
           <h2>Уход</h2>
           <h3>Спать</h3>
@@ -266,7 +266,7 @@
         </div>
       </section>
 
-      <section class="healthbehavior" id="healthbehavior">
+      <section class="section healthbehavior" id="healthbehavior">
         <div class="container">
           <h2>Здоров'ячко и Поведеньичко</h2>
           <section>
@@ -425,7 +425,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="section" >
       <div class="footer">
         <p class="footer__contacts" id="contacts">Контакты:</p>
         <ul class="footer__list">
@@ -454,5 +454,6 @@
         <span> Instagram: my_name_is_kotia </span>
       </div>
     </footer>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>

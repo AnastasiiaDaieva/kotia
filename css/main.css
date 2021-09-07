@@ -69,11 +69,20 @@ textarea {
   resize: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .link {
   text-decoration: none;
+  color: #060846;
   line-height: 1.29;
   letter-spacing: 0;
   font-weight: bold;
+}
+
+.section {
+  background-image: linear-gradient(to bottom, #fdfeec 60%, #f9fdc7);
 }
 
 .container {
@@ -96,21 +105,37 @@ textarea {
   }
 }
 
+.hero {
+  background-image: url(../../images/the-great.JPG);
+  background-color: #fdfeec;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 10%;
+  position: relative;
+  min-height: 400px;
+}
+
 .hero__container {
   padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #fdfeec;
   display: flex;
 }
 
 .hero__nav {
+  display: none;
+}
+
+.hero__items {
   list-style-type: none;
 }
 
 .hero__item {
   margin-bottom: 10px;
-  text-decoration: underline;
+}
+
+.hero__item:hover {
+  border-color: #060846;
 }
 
 .hero__heading {
@@ -135,36 +160,25 @@ textarea {
   font-size: 16px;
   border-radius: 4px;
   text-align: center;
+  border: 1px solid #060846;
   padding: 0;
   cursor: pointer;
 }
 
-.stayaway {
-  background-color: #e6511c;
-}
-
-.cage {
+.hero__nav.isActive {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  top: 50%;
+  left: 5%;
+  width: 90vw;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-50%) scale(1);
+  transition: scale 500ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  border-radius: 5px;
   background-color: #fbfeda;
-}
-
-.nutrition {
-  background-color: #f6fca2;
-}
-
-.nutrition_donts {
-  background-color: #e6511c;
-}
-
-.communication {
-  background-color: #fdfeec;
-}
-
-.care {
-  background-color: #f9fdc7;
-}
-
-.healthbehavior {
-  background-color: #fdfeec;
 }
 
 .healthbehavior__terms {
@@ -181,7 +195,6 @@ textarea {
 
 .footer {
   text-align: center;
-  background-color: #f0fb6a;
   width: 450px;
   border: 2px solid black;
   border-radius: 3px;
