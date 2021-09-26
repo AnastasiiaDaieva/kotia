@@ -84,3 +84,12 @@ a {
 .section {
   background-image: linear-gradient(to bottom, $color-8 60%, $color-6);
 }
+
+.button__scrollup {
+  position: fixed;
+  right: 30px;
+  box-shadow: none;
+  bottom: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+}
